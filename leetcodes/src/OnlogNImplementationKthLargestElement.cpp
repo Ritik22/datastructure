@@ -1,3 +1,6 @@
+//O(nlogn) implementation of problem leetcode 215
+//inbuilt sort will cost nlogn complexity.
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -7,9 +10,9 @@ using namespace std;
 class Solution{
     public:
         int findKthLargest(vector<int>& nums, int k) {
-        int len = nums.size();
-        sort(nums.begin() , nums.end());
-        return nums[len - k];
+            int len = nums.size();
+            sort(nums.begin() , nums.end());
+            return nums[len - k];
 
     }
 };
