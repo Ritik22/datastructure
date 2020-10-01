@@ -1,0 +1,2 @@
+# datastructure
+LEET CODE EXAPMLE OF BINARY TREE
